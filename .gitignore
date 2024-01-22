@@ -8,3 +8,5 @@ configTest.h
 CMakeLists.txt
 dependencies.lock
 sdkconfig.m5stack-stamps3
+configM5.h
+configuration2.h

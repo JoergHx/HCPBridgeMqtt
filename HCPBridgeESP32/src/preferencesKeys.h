@@ -5,7 +5,7 @@
 #include <Preferences.h>
 #include <ArduinoJson.h>
 
-#include "configuration.h"
+#include "configuration2.h"
 //max lenght of key is 15char.
 #define preference_started_before "run"
 //rs485 pins
