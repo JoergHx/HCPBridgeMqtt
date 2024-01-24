@@ -1,0 +1,20 @@
+  {
+    "name": "HCPBridgeMqtt Basic",
+    "version": "0.0.6.1",
+    "home_assistant_domain": "cover",
+    "new_install_prompt_erase": false,
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "parts": [
+          { "path": "firmware/basic/merged-firmware.bin", "offset": 0 }
+        ]
+      },
+      {
+        "chipFamily": "ESP32-S3",
+        "parts": [
+          { "path": "firmware/basic/merged-firmware-s3.bin", "offset": 0 }
+        ]
+      }
+    ]
+  }
