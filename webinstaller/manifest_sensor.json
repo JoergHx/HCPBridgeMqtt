@@ -7,13 +7,13 @@
       {
         "chipFamily": "ESP32",
         "parts": [
-          { "path": "firmware/sensor/merged_firmware.bin", "offset": 0 }
+          { "path": "firmware/sensor/firmware_merged.bin", "offset": 0 }
         ]
       },
       {
         "chipFamily": "ESP32-S3",
         "parts": [
-          { "path": "firmware/sensor/merged_firmware_s3.bin", "offset": 0 }
+          { "path": "firmware/sensor/firmware_merged_s3.bin", "offset": 0 }
         ]
       }
     ]
